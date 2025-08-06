@@ -1,0 +1,289 @@
+Title:- Pizza-Sales-Project (Excel / Power BI / Tableau / MySQL)
+
+EXCEL 
+Description:-
+
+Dashboard 1
+Key Performance Indicators (KPIs) :- Total revenue from pizza sales is $817,860.05, with 21,350 total orders and 49,574 pizzas sold. The average order value is $38.31, and the average number of pizzas per order is 2.32.
+
+Interactive (Filters) at the top of the dashboard :- allow users to analyze data based on Pizza Category (Supreme, Veggie, Classic, Chicken).
+
+The data shows the total number of orders placed each day of the week and Month:-
+Daily Trend For Total Order: A bar chart and a table display the total number of orders for each day of the week. The chart shows that Friday has the highest number of orders with 3,538.
+Sunday has the lowest with 2,624 orders. The other days' order counts are: Monday (2,794) , Tuesday (2,973) , Wednesday (3,024) , Thursday (3,239) , and Saturday (3,158).
+
+Month Trend For Total Order: A line chart and a table illustrate the total orders for each month of the year. The chart indicates that July has the highest number of orders at 1,935. October has the lowest number of orders at 1,646.Other months' order counts are: January (1,845) , February (1,685) , March (1,840) , April (1,799) , May (1,853) , June (1,773) , August (1,841) , September (1,661) , November (1,792) , and December (1,680). A second "Month Trend" chart shows a similar line graph, but with data points for different days of the month, ranging from day 9 to day 23.
+
+Percentage of sales by Pizza Category: A donut chart and a table show the percentage of total revenue contributed by each pizza category (Classic: 26.91%. Supreme: 25.46%. Chicken: 23.96%. Veggie: 23.68%)
+
+Percentage of sales by Pizza Size: A pie chart and a table display the percentage of total revenue for each pizza size (Large: 45.89%. Medium: 30.49%. Small: 21.77%. XLarge: 1.72%. XXLarge: 0.12%).
+
+Total Pizza's Sold by Pizza Category: A bar chart and a table show the total quantity of pizzas sold for each category.Classic: 14,888. Supreme: 11,987. Veggie: 11,649. Chicken: 11,050.2
+
+Dashboard 2
+Top and Bottom Performers:
+
+Top 5 pizzas by quantity sold: The Classic Deluxe Pizza (2,453), The Barbecue Chicken Pizza (2,432), The Hawaiian Pizza (2,422), The Pepperoni Pizza (2,418), and The Thai Chicken Pizza (2,371).
+
+Bottom 5 pizzas by quantity sold: The Brie Carre Pizza (490), The Calabrese Pizza (937), The Mediterranean Pizza (934), The Soppressata Pizza (961), and The Spinach Supreme Pizza (950).
+
+Top 5 pizzas by revenue: The Thai Chicken Pizza ($43,434.25), The Barbecue Chicken Pizza ($42,768), The California Chicken Pizza ($41,409.50), The Classic Deluxe Pizza ($38,180.50), and The Spicy Italian Pizza ($34,831.25).
+
+Bottom 5 pizzas by revenue: The Brie Carre Pizza ($11,588.50), The Green Garden Pizza ($13,955.75), The Spinach Supreme Pizza ($15,277.75), The Mediterranean Pizza ($15,360.50), and The Spinach Pesto Pizza ($15,596).
+
+Top 5 pizzas by Total Orders : The Classic Deluxe Pizza: 1073.35.The Hawaiian Pizza: 1061.46.The Barbecue Chicken Pizza: 1046.45.The Pepperoni Pizza: 1012.94. The California Chicken Pizza: 1012.96.
+
+Bottom 5 pizzas by Total Orders :The Brie Carre Pizza: 210.01.The Chicken Pesto Pizza: 399.62.The Calabrese Pizza: 401.74.The Mediterranean Pizza: 403.59.The Spinach Supreme Pizza: 407.14
+
+POWER BI 
+Description:-
+
+Dashboard 1
+Key Performance Indicators (KPIs) : The total revenue from pizza sales is $817,860.05. This was generated from 21,350 total orders, which resulted in 49,574 pizzas being sold. The average order value is $38.31, with an average of 2.32 pizzas per order.
+
+Interactive (Filters) at the top of the dashboard :- allow users to analyze data based on Pizza Category (Supreme, Veggie, Classic, Chicken). And Date (QTR wise)
+
+Daily Trend for Total Order: A bar chart shows the total number of orders for each day of the week, Friday: 3,538 orders (Highest), Saturday: 3,158 orders, Sunday: 2,624 orders (Lowest), Monday: 2,794 orders, Tuesday: 2,973 orders, Wednesday: 3,024 orders, Thursday: 3,239 orders
+
+Month Trend for Total Order: A line chart displays the total number of orders per month,July 1,935 orders (Highest), October: 1,646 orders (Lowest), Other monthly orders: January (1,845), February (1,685), March (1,840), April (1,799), May (1,853), June (1,773), August (1,841), September (1,661), November (1,792), December (1,680).
+
+Dashboard 2
+Percentage of Sales by Pizza Category: A donut chart and a table show the percentage of total revenue for each pizza category (Chicken, Classic, Supreme, Veggie) Classic: 26.91% ($219,213.25), Supreme: 25.46% ($207,860.70), Chicken: 23.96% ($196,024.15), Veggie: 23.68% ($192,761.95)
+
+Percentage of Sales by Pizza Size: A pie chart and a table illustrate the percentage of total revenue for each pizza size (Large, Medium, Small, XLarge, XXLarge)Large: 45.89% ($375,175.70), Medium: 30.49% ($249,382.25), Small: 21.77% ($178,078.20), XLarge: 1.72% ($14,072.50), XXLarge: 0.12% ($991.25)
+
+Total Pizzas Sold by Pizza Category: A bar chart and a table show the total quantity of pizzas sold for each category, with the Classic category leading the sales volume.
+Classic: 14,888, Supreme: 11,987, Veggie: 11,649, Chicken: 11,050
+
+Dashboard 3
+Top and Bottom Performers:
+
+Top 5 Pizzas by Quantity Sold: The Classic Deluxe Pizza: 2,453, The Barbecue Chicken Pizza: 2,432, The Hawaiian Pizza: 2,422, The Pepperoni Pizza: 2,418, The Thai Chicken Pizza: 2,371,
+
+Bottom 5 Pizzas by Quantity Sold: The Brie Carre Pizza: 490, The Mediterranean Pizza: 934, The Calabrese Pizza: 937, The Spinach Supreme Pizza: 950, The Soppressata Pizza: 961.
+
+Top 5 Pizzas by Revenue: The Thai Chicken Pizza: $43,434.25, The Barbecue Chicken Pizza: $42,768.00, The California Chicken Pizza: $41,409.50, The Classic Deluxe Pizza: $38,180.50, The Spicy Italian Pizza: $34,831.25.
+
+Bottom 5 Pizzas by Revenue: The Brie Carre Pizza $11,588.50, The Green Garden Pizza $13,955.75, The Spinach Supreme Pizza $15,277.75, The Mediterranean Pizza $15,360.50, The Spinach Pesto Pizza $15,596.00.
+
+Top 5 Pizzas by Total Orders : The Classic Deluxe Pizza 2,329, The Hawaiian Pizza 2,280, The Barbecue Chicken Pizza 2,273, The Pepperoni Pizza 2,226, The California Chicken Pizza 2,130.
+
+Bottom 5 Pizzas by Total Orders : The Brie Carre Pizza 480, The Calabrese Pizza 918, The Chicken Pesto Pizza 938, The Green Garden Pizza 941, The Mediterranean Pizza 943.
+
+TABLEAU 
+Description:- 
+
+Dashboard 1
+
+Top Metrics  Total Revenue: 817.86K Total Orders:21.35k Total Pizzas Sold: 49.57K Average Order Value: 38 Average Pizzas Per Order:2.32
+
+Filter Options: By Pizza Category
+
+This bar chart shows Daily trend for total orders: The bar chart shows the entire week. Highest Total order : Friday (3,538 order ) Lowest sales: Sunday Total order(2,627 order) Other notable week: Thursday: 3,239 Saturday: 3,158 Wednesday: 3,024.
+
+This bar chart shows monthly total orders: The bar chart shows all months Highest total orders: July (1,935 orders) Lowest total orders: October (1,646 orders) Other notable months:  January: 1,845 March: 1,840 August: 1,841.
+
+Percentage of Total Revenue by Pizza Category (Pie Chart): Veggie : 193.69k (23.68%) , Chicken : 195.92K (23.95%) , Supreme: 208.197K (25.45%) , Classic: 220.053K (26.90%).
+
+Percentage of Total Revenue by Pizza Size (Bar Chart): L (Large): 375.319k (45.89%) , M (Medium): 249.382K (30.49%) , S (Small): 178.076K (21.77%) , XL (Extra Large): 14.076K (1.72%)
+ XXL: Not shown (likely negligible or 0%)
+
+Total Pizzas Sold by Pizza Category (Scatter Plots Chart) : Veggie : 11.649k (23.49%) , Chicken : 11.050K (22.29%) ,  Supreme: 11.987K (24.18%) ,  Classic: 14.888K (30.03%).
+
+Dashboard 2
+
+Top 5 Top Selling Pizzas (Tree maps):-
+
+The top 5 pizza by Revenue : The Thai Chicken Pizza: 43.434K , The California Chicken Pizza: 41.410k, The Classic Deluxe Pizza: 38.181K , The Barbecue Chicken Pizza: 42.768K , 
+The spicy italian Pizza: 34.831K .
+
+The top 5 pizza by Category : The Classic Deluxe Pizza: 2,453 , The Hawaiian pizza :2,422 , The Peppieroni Pizza : 2,418 The Barbecue Chicken Pizza: 2,432 , The Thai Chicken Pizza: 2,371.
+
+The top 5 pizza by Total Order : The Classic Deluxe Pizza: 2,329 , The Hawaiian pizza :2,280 , The Peppieroni Pizza : 2,278 The Barbecue Chicken Pizza: 2,273 , The Thai Chicken Pizza: 2,225.
+
+The Bottom 5 pizza by Revenue : The Spinach Supreme Pizza: 15,278k , The Spinach pesto Pizza: 15.596k , The Green Garden Pizza: 13.956K , The Mediterranean Pizza: 15.361K , 
+The Brie Carre Pizza: 11.588K .
+
+The Bottom 5 pizza by Category : The Soppressata Pizza: 0.96k , The Calabrese Pizza: 0.94k , The Spinach Supreme Pizza: 0.95K , The Mediterranean Pizza: 0.94K , 
+The Brie Carre Pizza: 0.49K .
+
+
+The Bottom 5 pizza by Total Order : The Chicken Pizza: 0.94k , The Calabrese Pizza: 0.91k , The Spinach Supreme Pizza: 0.91K , The Mediterranean Pizza: 0.91K , 
+The Brie Carre Pizza: 0.48K .
+
+MySQL 
+Description:-
+
+Query 1.Create and use the database, view the data:-
+Code :-
+	CREATE database pizza;
+	use pizza;
+	select * from `pizza`;
+Note :-
+	CREATE DATABASE pizza; — Creates a new database named pizza.
+	USE pizza; — Selects the pizza database for use.
+	SELECT * FROM pizza; — Displays all records from the pizza table.
+
+Query 2,3,4,5 All -- KPI --
+Code :-
+ 	Q 2 Total Revenue
+	select round(sum(total_price),0) as Total_Revenue from pizza;
+Note :-
+	Measures overall revenue from pizza sales using SUM(total_price).
+Code :-
+	Q 3 Average Order values
+	select * from pizza;
+	select count(distinct order_id) from pizza;
+Note :-
+	Average revenue per order calculated as SUM(total_price)/COUNT(DISTINCT order_id).
+
+	select sum(total_price)/count(distinct order_id)as"average order value"from pizza;
+Code :-
+	Q 4 Total Pizzas Sold
+	select sum(quantity) as "Total Pizzas Sold" from pizza;
+Note :-
+	Total number of pizzas sold using SUM(quantity)
+
+Code :-
+	Q 5 Total Orders
+	select count(distinct order_id) as "Total Orders"from pizza;
+Note :-
+	Average quantity of pizzas ordered per order.
+
+
+
+Query 6. daily trend for total Orders
+Code :-
+	select order_date,date_format(order_date,'%a') as'myday'
+	from pizza
+	where date_format(order_date,'%a')="thu";
+
+	select
+		date_format(order_date,'%a') as order_day,
+    		count(distinct order_id) as Total_orders
+	from
+		pizza
+	group by
+		order_day
+	order by
+		order_day
+    		;
+Note :-Orders grouped by day of the week to identify high/low sales days.
+
+Query 7 Average pizzas per orders
+Code :-
+	select * from pizza;
+	select	sum(quantity)/count(distinct (order_id)) from pizza;
+
+Note :-Divides total pizzas sold by total orders to calculate the average pizzas per order.
+
+Query 8  Monthly Trend for orders
+Code :-
+	select
+		date_format(order_date,'%M') as order_day,
+    		count(distinct order_id)as Total_orders
+	from
+		pizza
+	group by
+		order_day
+	order by
+		order_day;
+    
+    	select distinct pizza_category,round(sum(total_price)*100/(select sum(total_price)from pizza),3) as percentage from pizza group by pizza_category;
+
+Note :-Orders grouped by month to detect seasonal trends and peak demand periods.
+
+Query 9 Totals pizzas sold by pizza category
+Code :-
+  	select pizza_category,sum(quantity) as "total"
+  	from pizza
+  	group by pizza_category;
+Note :-
+	Totals pizzas sold by pizza category
+	Displays total pizzas sold in each category.
+	select pizza_category,sum(quantity) as "total" from pizza group by pizza_category;
+	    
+  
+Query 10 Bottom 5 pizzas sold by Quantity
+Code :-
+    	select pizza_name,quantity from pizza
+    	order by quantity desc
+    	limit 5;
+Note :-
+	Bottom 5 pizzas by Revenue
+	Finds 5 least sold pizzas.
+	select pizza_name,quantity from pizza order by quantity desc limit 5;
+      
+
+    
+Query 11 Top 5 pizzas sold by Revenue
+Code :-
+      	select pizza_name,sum(total_price) as "total"
+      	from pizza
+      	group by pizza_name
+      	order by total desc
+      	limit 5;
+Note :-
+	Top 5 pizzas by Revenue
+	Shows the top 5 pizzas generating highest revenue.
+	select pizza_name,sum(total_price) as "total" from pizza group by pizza_name order by total desc limit 5;      
+
+Query 12 Bottom 5 pizzas by Revenue
+Code :-
+      	select pizza_name,sum(total_price) as "total"
+      	from pizza
+      	group by pizza_name
+      	order by total 
+      	limit 5;
+Note :-
+	Bottom 5 pizzas by Revenue
+	Finds 5 pizzas contributing the least revenue.
+	select pizza_name,sum(total_price) as "total" from pizza group by pizza_name order by total limit 5;
+      
+Query 13 Top 5 pizzas by Quantity
+Code :-
+      	select pizza_name,sum(Quantity) as "total"
+      	from pizza
+      	group by pizza_name
+      	order by total desc
+      	limit 5;
+Note :-
+	Top 5 pizzas by Quantity
+	Identifies the 5 most sold pizzas.
+	select pizza_name,sum(Quantity) as "total" from pizza group by pizza_name order by total desc limit 5;
+      	
+
+      
+Query 14 Bottom 5 pizzas by Quantity
+Code :-
+      	select pizza_name,sum(Quantity) as "total"
+      	from pizza
+      	group by pizza_name
+      	order by total
+      	limit 5;
+Note :-
+	Bottom 5 pizzas by Quantity
+	Finds 5 least popular pizzas based on quantity.
+	select pizza_name,sum(Quantity) as "total" from pizzagroup by pizza_name order by total limit 5;
+      	
+      	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
